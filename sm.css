@@ -1,0 +1,26 @@
+.nv{
+    box-shadow: 3px;
+}
+.multi-bg-example {
+    width: 100%;
+    height: 400px;
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+}
+.hl{
+    font-size: 700%;
+    animation: fadein 0.75s ease-in 0s 1 normal;
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+@keyframes fadein {
+    from{
+        opacity: 0;
+        transform: translateX(-10px)
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
